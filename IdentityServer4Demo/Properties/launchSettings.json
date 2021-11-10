@@ -13,8 +13,9 @@
   },
   "profiles": {
     "启动": {
-      "commandName": "Executable",
-      "executablePath": "C:\\demo\\IdentityServer4Demo\\IdentityServer4Demo\\bin\\Debug\\netcoreapp3.1\\IdentityServer4Demo.exe",
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "http://localhost:5000",
       "ErrorString": "Additional text encountered after finished reading JSON content: }. Path '', line 14, position 0."
     }
   }

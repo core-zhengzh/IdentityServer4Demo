@@ -24,20 +24,9 @@ namespace IdentityServer4Demo
         {
             return new List<ApiResource>
             {
-                new ApiResource("api1")
+                new ApiResource("api")
             };
         }
-
-
-        //public static IEnumerable<ApiScope> GetApiScopes()
-        //{
-        //    return new List<ApiScope>
-        //    {
-        //        new ApiScope("api1"),
-              
-        //    };
-        //}
-
         // clients want to access resources (aka scopes)
         public static IEnumerable<Client> GetClients()
         {
@@ -65,7 +54,7 @@ namespace IdentityServer4Demo
                     {
                         //IdentityServerConstants.StandardScopes.OpenId,
                         //IdentityServerConstants.StandardScopes.Profile,
-                        "api1"
+                        "api"
                     }
                     //AccessTokenLifetime = 60
                   

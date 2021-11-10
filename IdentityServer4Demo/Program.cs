@@ -14,6 +14,8 @@ namespace IdentityServer4Demo
         public static void Main(string[] args)
         {
             CreateHostBuilder(args).Build().Run();
+
+
         }
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
@@ -21,7 +23,7 @@ namespace IdentityServer4Demo
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();
-                    webBuilder.UseUrls("http://localhost:5002");
+                    //webBuilder.UseUrls("http://localhost:5002");
                 });
     }
 }

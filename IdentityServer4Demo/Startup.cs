@@ -27,6 +27,7 @@ namespace IdentityServer4Demo
         {
             //services.AddControllers();
          
+
             // Adds IdentityServer
             services.AddIdentityServer()//x => x.IssuerUri = "http://slb.com:8080"
                      .AddDeveloperSigningCredential()
