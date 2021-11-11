@@ -15,7 +15,7 @@
     "启动": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "http://localhost:5000",
+      "launchUrl": "https://localhost:5000",
       "ErrorString": "Additional text encountered after finished reading JSON content: }. Path '', line 14, position 0."
     }
   }
